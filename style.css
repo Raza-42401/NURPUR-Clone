@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.logo{
+    height: 100%;
+    width: 30%;
+}
+.logo img{
+    margin-left: 70px;
+}
+.navlinks{
+    height: 100%;
+    width: 50%;
+}
+li:hover{
+    border: 1px solid green;
+    color: green;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.toggle{
+    height: 100%;
+    width: 20%;
+}
+.video-banner{
+    height: 900px;
+    width: 100%;
+}
+.video-banner video{
+    height: 100%;
+    width: 100%;
+}
+.seperation{
+    height: 100px;
+    width: 100%;
+    margin-top: 20px;
+    background-image: url(assests/ban-2-end.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: 1px solid white;
+}
+.banner-2{
+    height: 550px;
+    width: 100%;
+    display: flex;
+    gap: 80px;  
+}
+.ban-2-ctn{
+    height: 75%;
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+.ban-2-img{
+    height: 80%;
+    width: 40%;
+    margin-top: 2%;
+    margin-right: 5%;
+}
+.ban-2-img img{
+    height: 100%;
+    width: 100%;
+}
+.grass-seperation{
+    height: 140px;
+    width: 100%;
+}
+.grass-seperation img{
+    height: 100%;
+    width: 100%;
+}
+.banner-cards{
+    height: 170vh;
+    width: 100%;
+    background-image: url(assests/banner-3.webp);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: contain;
+}
+.media{
+    height: 400px;
+    width: 100%;
+}
+.media-cards{
+    height: 70%;
+    width: 70%;
+    margin: 3% auto;
+    display: flex;
+    gap: 10%;
+}
+.footer{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    background-color: #f9f9f9;
+}
+.logos{
+    height: 100%;
+    width: 50%;
+    display: flex;
+}
+.fauji-logo{
+    height: 140px;
+    width: 100px;
+    margin-top: 15%;
+    margin-left: 25%;
+}
+.fauji-logo img{
+    height: 100%;
+    width: 100%;
+}
+.multi-logos{
+    height: 218px;
+    width: 110px;
+    margin-top: 15%;
+    margin-left: 25%;
+}
+.nurpur-logo{
+    height: 54px;
+    width: 110px;
+}
+.nurpur-logo img{
+    height: 100%;
+    width: 100%;
+}
+.dostea-logo{
+    height: 48px;
+    width: 110px;
+    margin-top: 30px;
+}
+.dostea-logo img{
+    height: 100%;
+    width: 100%;
+}
+.social{
+    height: 100%;
+    width: 50%;
+}
+.chart{
+    height: 218px;
+    width: 612px;
+    margin-top: 15%;
+}
+.navlinks-2{
+    height: 24px;
+    width: 612px;
+}
+.social-pack{
+    height: 162px;
+    width: 612px;
+    margin: 32px 0px 0px;
+    display: flex;
+}
+.contact-info{
+    height: 100%;
+    width: 50%;
+}
+.socialmedia{
+    height: 100%;
+    width: 50%;
+}
